@@ -1,7 +1,32 @@
-.form fieldset {
-  margin: 10px 0;
+.field {
+  margin-bottom: 20px;
+}
+
+#last__field {
+  margin-top: -18px;
+  margin-bottom: 20px;
 }
 
 .form input {
-  margin: 5px 0;
+  margin-bottom: 10px;
+}
+
+#color {
+  margin-top: 4px;
+}
+
+#recommend {
+  margin-top: 10px;
+}
+
+#mark {
+  margin: 12px 0 4px 2px;
+}
+
+#pass {
+  margin-bottom: 0;
+}
+
+#agreement {
+  margin-bottom: 4px;
 }

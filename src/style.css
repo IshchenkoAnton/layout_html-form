@@ -1,32 +1,8 @@
-.form > .fields:not(:last-of-type) {
+.fields {
   margin-bottom: 20px;
 }
 
-.form > .fields:last-of-type {
-  margin-bottom: 20px;
-  margin-top: -18px;
-}
-
-.form .form__inputs {
+.form__inputs:not(:last-child) {
+  display: block;
   margin-bottom: 10px;
-}
-
-.form .form__inputs.color {
-  margin-top: 4px;
-}
-
-.form .form__select {
-  margin-top: 10px;
-}
-
-.form .form__inputs.mark {
-  margin: 12px 0 4px 2px;
-}
-
-.form .form__inputs.password {
-  margin-bottom: 0;
-}
-
-.form .form__inputs.agreement {
-  margin-bottom: 4px;
 }
